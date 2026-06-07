@@ -1,9 +1,10 @@
 # Hand-Tracking LED Control System Using ESP32 and WS2812B LED Strip
+
 ![Platform](https://img.shields.io/badge/Platform-ESP32-blue)
 ![Language](https://img.shields.io/badge/Language-Python-yellow)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-orange)
-![Computer Vision](https://img.shields.io/badge/Computer%20Vision-MediaPipe-green)
-![Library](https://img.shields.io/badge/OpenCV-Enabled-red)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-green)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-red)
 ![Communication](https://img.shields.io/badge/Communication-WiFi-lightgrey)
 ![LED](https://img.shields.io/badge/LED-WS2812B-brightgreen)
 ![Project](https://img.shields.io/badge/Project-Completed-success)
