@@ -1,5 +1,12 @@
 # Hand-Tracking LED Control System Using ESP32 and WS2812B LED Strip
-
+![Platform](https://img.shields.io/badge/Platform-ESP32-blue)
+![Language](https://img.shields.io/badge/Language-Python-yellow)
+![Language](https://img.shields.io/badge/Language-C%2B%2B-orange)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-MediaPipe-green)
+![Library](https://img.shields.io/badge/OpenCV-Enabled-red)
+![Communication](https://img.shields.io/badge/Communication-WiFi-lightgrey)
+![LED](https://img.shields.io/badge/LED-WS2812B-brightgreen)
+![Project](https://img.shields.io/badge/Project-Completed-success)
 Control a WS2812B LED strip using real-time hand gestures detected by MediaPipe and OpenCV. The system measures the distance between the thumb and index finger, sends the calculated value wirelessly to an ESP32 over WiFi, and dynamically controls LED illumination from the center of the LED strip outward.
 
 ---
