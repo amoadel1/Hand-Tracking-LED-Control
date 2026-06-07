@@ -467,7 +467,11 @@ Install the following libraries using Arduino IDE Library Manager:
 
 ### Step 1
 
-Upload the ESP32 firmware using Arduino IDE.
+Open the Arduino IDE and upload the ESP32 firmware:
+
+```text
+hand_tracking.ino
+```
 
 ### Step 2
 
@@ -475,11 +479,21 @@ Connect the ESP32 and computer to the same WiFi network.
 
 ### Step 3
 
-Open Serial Monitor and obtain the ESP32 IP address.
+Open the Serial Monitor and note the ESP32 IP address displayed after a successful WiFi connection.
 
 ### Step 4
 
-Update the IP address inside the Python source code.
+Open the Python source code:
+
+```text
+camera_test.py
+```
+
+Update the ESP32 IP address:
+
+```python
+ESP32_IP = "YOUR_ESP32_IP"
+```
 
 ### Step 5
 
@@ -499,7 +513,7 @@ Move the thumb and index finger closer together or farther apart.
 
 ### Step 8
 
-Observe the LED strip responding in real time.
+Observe the WS2812B LED strip responding in real time according to the detected finger distance.
 
 ---
 
